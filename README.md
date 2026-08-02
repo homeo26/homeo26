@@ -22,7 +22,7 @@
 ## 🛠️ Tech Stack
 
 <div align="center">
-<img src="https://skillicons.dev/icons?i=java,kotlin,cpp,python,ts,js,react,nodejs,aws,dynamodb,docker,git,linux,idea&perline=7&theme=dark" alt="Tech stack" />
+<img src="https://skillicons.dev/icons?i=java,ts,js,py,cpp,react,nodejs,aws,dynamodb,gradle,docker,git,linux,idea&perline=7&theme=dark" alt="Tech stack" />
 </div>
 
 ## 📊 Stats

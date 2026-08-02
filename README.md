@@ -29,12 +29,12 @@
 ## 📊 GitHub Stats
 
 <div align="center">
-<img src="https://github-readme-stats.vercel.app/api?username=homeo26&show_icons=true&theme=tokyonight&hide_border=true&bg_color=00000000" height="165" alt="GitHub stats" />
+<img src="https://github-readme-stats-sigma-five.vercel.app/api?username=homeo26&show_icons=true&theme=tokyonight&hide_border=true&bg_color=00000000" height="165" alt="GitHub stats" />
 <img src="https://streak-stats.demolab.com?user=homeo26&theme=tokyonight&hide_border=true&background=00000000" height="165" alt="Contribution streak" />
 </div>
 
 <div align="center">
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=homeo26&layout=compact&theme=tokyonight&hide_border=true&bg_color=00000000" height="140" alt="Top languages" />
+<img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=homeo26&layout=compact&theme=tokyonight&hide_border=true&bg_color=00000000" height="140" alt="Top languages" />
 </div>
 
 ## 🏆 Competitive Programming

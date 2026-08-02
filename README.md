@@ -42,8 +42,7 @@
 ## 🏆 Competitive Programming
 
 <div align="center">
-<a href="https://codeforces.com/profile/homeo"><img src="https://codeforces-readme-stats.vercel.app/api/card?username=homeo&theme=github_dark" height="180" alt="Codeforces stats" /></a>
-<br/><br/>
+<a href="https://codeforces.com/profile/homeo"><img src="https://codeforces-readme-stats.vercel.app/api/card?username=homeo&theme=github_dark" height="200" alt="Codeforces stats" /></a>
 <a href="https://leetcode.com/u/homeo/"><img src="https://leetcard.jacoblin.cool/homeo?theme=dark&font=JetBrains%20Mono&ext=heatmap" height="200" alt="LeetCode stats" /></a>
 </div>
 

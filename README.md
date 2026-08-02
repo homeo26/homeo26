@@ -1,4 +1,4 @@
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:7c3aed,50:14b8a6,100:ec4899&height=180&section=header&text=Homam%20Manasra&fontSize=44&fontColor=e6e8ef&animation=fadeIn&desc=SDE%20@%20Amazon%20%7C%20Competitive%20Programmer&descSize=18&descAlignY=75" width="100%" />
+<img src="https://raw.githubusercontent.com/homeo26/homeo26/main/assets/space-banner.svg" width="100%" alt="Homam Manasra — SDE @ Amazon · Competitive Programmer" />
 
 <div align="center">
 
@@ -55,4 +55,4 @@
 </picture>
 </div>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:ec4899,50:14b8a6,100:7c3aed&height=120&section=footer" width="100%" />
+<img src="https://raw.githubusercontent.com/homeo26/homeo26/main/assets/space-footer.svg" width="100%" alt="" />

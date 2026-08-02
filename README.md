@@ -13,22 +13,22 @@
 
 </div>
 
-## 🚀 About Me
+## About Me
 
-- 💼 SDE at **Amazon** — Amman, Jordan · 🎓 Software Engineering graduate from **JUST**
-- 💳 I build **payments systems** end-to-end: card processing, bank transfers, refunds, digital wallets, and checkout experiences across web & mobile
-- 🌍 Specialized in **emerging-markets payments** — local card networks, regional payment methods, 3DS authentication flows, and integrations with third-party payment gateways
-- ⚙️ Deep in **large-scale event-driven data systems**: designing for idempotency, concurrency, and exactly-once semantics over millions of daily payment events
-- 🔐 Hands-on with **payments security & compliance** — security reviews, threat modeling, and cryptography for money-movement flows
-- 🧩 Competitive programmer at heart — the same instinct for correctness under edge cases drives how I write payment code
+- SDE at **Amazon** — Amman, Jordan · Software Engineering graduate from **JUST**
+- I build **payments systems** end-to-end: card processing, bank transfers, refunds, digital wallets, and checkout experiences across web & mobile
+- Specialized in **emerging-markets payments** — local card networks, regional payment methods, 3DS authentication flows, and integrations with third-party payment gateways
+- Deep in **large-scale event-driven data systems**: designing for idempotency, concurrency, and exactly-once semantics over millions of daily payment events
+- Hands-on with **payments security & compliance** — security reviews, threat modeling, and cryptography for money-movement flows
+- Competitive programmer at heart — the same instinct for correctness under edge cases drives how I write payment code
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 <div align="center">
 <img src="https://raw.githubusercontent.com/homeo26/homeo26/main/assets/tech-stack.svg" alt="Tech stack: Java, Kotlin, Groovy, Python, C++, Ruby, JavaScript, TypeScript, Bash, HTML, CSS, React, React Native, Next.js, Spring, Node.js, AWS, GCP, DynamoDB, PostgreSQL, MySQL, Docker, Kubernetes, Linux, Git, GitHub, Gradle, IntelliJ" />
 </div>
 
-## 📊 Stats
+## Stats
 
 <div align="center">
 <img src="https://github-readme-stats-sigma-five.vercel.app/api?username=homeo26&show_icons=true&hide_rank=true&hide_border=true&bg_color=0b0d12&title_color=a78bfa&icon_color=14b8a6&text_color=e6e8ef&border_radius=12" height="112" alt="GitHub stats" />
@@ -36,14 +36,14 @@
 <img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=homeo26&layout=compact&hide_border=true&bg_color=0b0d12&title_color=a78bfa&text_color=e6e8ef&border_radius=12" height="112" alt="Top languages" />
 </div>
 
-## 🏆 Competitive Programming
+## Competitive Programming
 
 <div align="center">
 <a href="https://codeforces.com/profile/homeo"><img src="https://codeforces-readme-stats.vercel.app/api/card?username=homeo&theme=github_dark" height="200" alt="Codeforces stats" /></a>
 <a href="https://leetcode.com/u/homeo/"><img src="https://leetcard.jacoblin.cool/homeo?theme=dark&font=JetBrains%20Mono&ext=heatmap" height="200" alt="LeetCode stats" /></a>
 </div>
 
-## 🐍 Contributions
+## Contributions
 
 <div align="center">
 <picture>

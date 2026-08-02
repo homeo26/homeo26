@@ -16,7 +16,7 @@
 ## About Me
 
 - **Full-stack Software Development Engineer**, currently a full-time **SDE I at Amazon** — Amman, Jordan
-- Software Engineering graduate from **JUST**
+- Software Engineering graduate from **Jordan University of Science and Technology (JUST)**
 - I build **payments systems** end-to-end: card processing, bank transfers, refunds, digital wallets, and checkout experiences across web & mobile
 - Specialized in **emerging-markets payments** — local card networks, regional payment methods, 3DS authentication flows, and integrations with third-party payment gateways
 - Deep in **large-scale event-driven data systems**: designing for idempotency, concurrency, and exactly-once semantics over millions of daily payment events

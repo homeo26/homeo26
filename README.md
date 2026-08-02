@@ -31,12 +31,9 @@
 ## 📊 Stats
 
 <div align="center">
-<img src="https://github-readme-stats-sigma-five.vercel.app/api?username=homeo26&show_icons=true&hide_rank=true&hide_border=true&bg_color=0b0d12&title_color=a78bfa&icon_color=14b8a6&text_color=e6e8ef&border_radius=12" height="165" alt="GitHub stats" />
-<img src="https://streak-stats.demolab.com?user=homeo26&hide_border=true&background=0b0d12&ring=7c3aed&fire=ec4899&currStreakLabel=14b8a6&currStreakNum=e6e8ef&sideLabels=a78bfa&sideNums=e6e8ef&dates=9ca3af&border_radius=12" height="165" alt="Contribution streak" />
-</div>
-
-<div align="center">
-<img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=homeo26&layout=compact&hide_border=true&bg_color=0b0d12&title_color=a78bfa&text_color=e6e8ef&border_radius=12" height="140" alt="Top languages" />
+<img src="https://github-readme-stats-sigma-five.vercel.app/api?username=homeo26&show_icons=true&hide_rank=true&hide_border=true&bg_color=0b0d12&title_color=a78bfa&icon_color=14b8a6&text_color=e6e8ef&border_radius=12" height="160" alt="GitHub stats" />
+<img src="https://streak-stats.demolab.com?user=homeo26&hide_border=true&background=0b0d12&ring=7c3aed&fire=ec4899&currStreakLabel=14b8a6&currStreakNum=e6e8ef&sideLabels=a78bfa&sideNums=e6e8ef&dates=9ca3af&border_radius=12" height="160" alt="Contribution streak" />
+<img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=homeo26&layout=compact&hide_border=true&bg_color=0b0d12&title_color=a78bfa&text_color=e6e8ef&border_radius=12" height="160" alt="Top languages" />
 </div>
 
 ## 🏆 Competitive Programming

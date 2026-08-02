@@ -49,7 +49,28 @@ def aurora(w, h):
     return "".join(parts)
 
 
-def svg(w, h, body):
+def svg(w, h, body, fade_top=0, fade_bottom=0):
+    """fade_top/fade_bottom: px over which the whole image fades to transparent."""
+    stops_parts = []
+    if fade_top:
+        stops_parts.append(
+            f'<stop offset="0" stop-color="#000"/>'
+            f'<stop offset="{fade_top / h:.3f}" stop-color="#fff"/>'
+        )
+    else:
+        stops_parts.append('<stop offset="0" stop-color="#fff"/>')
+    if fade_bottom:
+        stops_parts.append(
+            f'<stop offset="{1 - fade_bottom / h:.3f}" stop-color="#fff"/>'
+            f'<stop offset="1" stop-color="#000"/>'
+        )
+    else:
+        stops_parts.append('<stop offset="1" stop-color="#fff"/>')
+    fade_defs = (
+        f'<linearGradient id="fadeGrad" x1="0" y1="0" x2="0" y2="1">'
+        f'{"".join(stops_parts)}</linearGradient>'
+        f'<mask id="fade"><rect width="{w}" height="{h}" fill="url(#fadeGrad)"/></mask>'
+    )
     return (
         f'<svg width="{w}" height="{h}" viewBox="0 0 {w} {h}" '
         f'xmlns="http://www.w3.org/2000/svg" font-family="\'JetBrains Mono\',\'Fira Code\',monospace">'
@@ -59,25 +80,29 @@ def svg(w, h, body):
         f'<radialGradient id="vig" cx="50%" cy="50%" r="75%">'
         f'<stop offset="60%" stop-color="{BASE}" stop-opacity="0"/>'
         f'<stop offset="100%" stop-color="#000" stop-opacity="0.45"/></radialGradient>'
+        f'{fade_defs}'
         f'</defs>'
+        f'<g mask="url(#fade)">'
         f'<rect width="{w}" height="{h}" fill="{BASE}"/>'
         f'{aurora(w, h)}'
         f'{stars(w, h, max(30, w * h // 4200))}'
         f'<rect width="{w}" height="{h}" fill="url(#vig)"/>'
         f'{body}'
+        f'</g>'
         f'</svg>'
     )
 
 
 BANNER_W, BANNER_H = 1200, 220
 banner_text = (
-    f'<text x="{BANNER_W / 2}" y="104" text-anchor="middle" fill="{TEXT}" '
-    f'font-size="46" font-weight="700" opacity="1">Homam Manasra'
+    f'<text x="{BANNER_W / 2}" y="112" text-anchor="middle" fill="{TEXT}" '
+    f'font-size="62" font-weight="700" opacity="1">Homam Manasra'
     f'<animate attributeName="opacity" values="0;1" dur="1.6s" fill="freeze" restart="never"/></text>'
-    f'<text x="{BANNER_W / 2}" y="148" text-anchor="middle" fill="{DIM}" '
-    f'font-size="19" opacity="1">SDE @ Amazon &#183; Competitive Programmer'
+    f'<text x="{BANNER_W / 2}" y="156" text-anchor="middle" fill="{DIM}" '
+    f'font-size="20" opacity="1">SDE @ Amazon &#183; Competitive Programmer'
     f'<animate attributeName="opacity" values="0;1" dur="2.4s" fill="freeze" restart="never"/></text>'
 )
-open("assets/space-banner.svg", "w").write(svg(BANNER_W, BANNER_H, banner_text))
-open("assets/space-footer.svg", "w").write(svg(1200, 120, ""))
+open("assets/space-banner.svg", "w").write(
+    svg(BANNER_W, BANNER_H, banner_text, fade_bottom=70))
+open("assets/space-footer.svg", "w").write(svg(1200, 120, "", fade_top=55))
 print("wrote assets/space-banner.svg and assets/space-footer.svg")

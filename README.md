@@ -22,7 +22,7 @@
 ## 🛠️ Tech Stack
 
 <div align="center">
-<img src="https://go-skill-icons.vercel.app/api/icons?i=java,kotlin,groovy,py,cpp,ruby,js,ts,bash,html,css,react,reactnative,nextjs,spring,nodejs,aws,gcp,dynamodb,postgres,mysql,docker,kubernetes,linux,git,github,gradle,idea&perline=8&theme=dark" alt="Tech stack" />
+<img src="https://raw.githubusercontent.com/homeo26/homeo26/main/assets/tech-stack.svg" alt="Tech stack: Java, Kotlin, Groovy, Python, C++, Ruby, JavaScript, TypeScript, Bash, HTML, CSS, React, React Native, Next.js, Spring, Node.js, AWS, GCP, DynamoDB, PostgreSQL, MySQL, Docker, Kubernetes, Linux, Git, GitHub, Gradle, IntelliJ" />
 </div>
 
 ## 📊 Stats

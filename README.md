@@ -20,7 +20,6 @@
 - I build **payments systems** end-to-end: card processing, bank transfers, refunds, digital wallets, and checkout experiences across web & mobile
 - Specialized in **emerging-markets payments** — local card networks, regional payment methods, 3DS authentication flows, and integrations with third-party payment gateways
 - Deep in **large-scale event-driven data systems**: designing for idempotency, concurrency, and exactly-once semantics over millions of daily payment events
-- Hands-on with **payments security & compliance** — security reviews, threat modeling, and cryptography for money-movement flows
 - Competitive programmer at heart — the same instinct for correctness under edge cases drives how I write payment code
 
 ## Tech Stack

@@ -44,13 +44,5 @@
 <a href="https://leetcode.com/u/homeo/"><img src="https://leetcard.jacoblin.cool/homeo?theme=dark&font=JetBrains%20Mono&ext=heatmap" height="200" alt="LeetCode stats" /></a>
 </div>
 
-## Contributions
-
-<div align="center">
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/homeo26/homeo26/output/github-contribution-grid-snake-dark.svg" />
-  <img src="https://raw.githubusercontent.com/homeo26/homeo26/output/github-contribution-grid-snake.svg" alt="Contribution snake" />
-</picture>
-</div>
 
 <img src="https://raw.githubusercontent.com/homeo26/homeo26/main/assets/space-footer.svg" width="100%" alt="" />

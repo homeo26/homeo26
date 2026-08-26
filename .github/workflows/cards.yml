@@ -23,7 +23,7 @@ jobs:
         run: python3 scripts/build_stats_cards.py dist
 
       - name: Publish to output branch
-        uses: crazy-max/ghaction-github-pages@v4
+        uses: crazy-max/ghaction-github-pages@v5
         with:
           target_branch: output
           build_dir: dist

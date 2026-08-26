@@ -112,7 +112,12 @@ def card(body):
 
 
 def fmt_date(ds):
-    d = date.fromisoformat(ds)
+    if not ds:
+        return "—"
+    try:
+        d = date.fromisoformat(str(ds))
+    except (ValueError, TypeError):
+        return "—"
     return d.strftime("%b %-d")
 
 
@@ -147,13 +152,15 @@ def streak_card(total, cur, cur_range, best, best_range):
         f'<text x="{cx}" y="128" fill="{TEAL}" font-size="13" font-weight="600" '
         f'text-anchor="middle">Current Streak</text>',
         f'<text x="{cx}" y="146" fill="{DIM}" font-size="10" text-anchor="middle">'
-        f'{fmt_date(cur_range[0])} - {fmt_date(cur_range[1])}</text>' if cur else "",
+        f'{fmt_date(cur_range[0])} - {fmt_date(cur_range[1])}</text>'
+        if (cur and cur_range and cur_range[0] and cur_range[1]) else "",
         # right column: longest
         f'<text x="{W * 0.82}" y="72" fill="{TEXT}" font-size="26" font-weight="700" '
         f'text-anchor="middle">{best}</text>',
         f'<text x="{W * 0.82}" y="98" fill="{LAVENDER}" font-size="12" text-anchor="middle">Longest Streak</text>',
         f'<text x="{W * 0.82}" y="114" fill="{DIM}" font-size="10" text-anchor="middle">'
-        f'{fmt_date(best_range[0])} - {fmt_date(best_range[1])}</text>' if best else "",
+        f'{fmt_date(best_range[0])} - {fmt_date(best_range[1])}</text>'
+        if (best and best_range and best_range[0] and best_range[1]) else "",
         f'<text x="{W * 0.18}" y="114" fill="{DIM}" font-size="10" text-anchor="middle">last 365 days</text>',
     ]
     return card("".join(body))
